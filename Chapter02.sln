@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variables", "Variables\Vari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vocabulary", "Vocabulary\Vocabulary.csproj", "{9D8C9967-A48C-4BBB-B022-FE6876F9E608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formatting", "Formatting\Formatting.csproj", "{755C9F0A-DFEE-4795-882B-9B078A29ECC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formatting", "Formatting\Formatting.csproj", "{755C9F0A-DFEE-4795-882B-9B078A29ECC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arguments", "Arguments\Arguments.csproj", "{A3FD0EBB-ADD9-47B1-A8F2-A4F364A48433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arguments", "Arguments\Arguments.csproj", "{A3FD0EBB-ADD9-47B1-A8F2-A4F364A48433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise2_1", "Exercise2_1\Exercise2_1.csproj", "{844107F3-F12E-4DAC-89EE-601598DECEFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A3FD0EBB-ADD9-47B1-A8F2-A4F364A48433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3FD0EBB-ADD9-47B1-A8F2-A4F364A48433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3FD0EBB-ADD9-47B1-A8F2-A4F364A48433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{844107F3-F12E-4DAC-89EE-601598DECEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844107F3-F12E-4DAC-89EE-601598DECEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844107F3-F12E-4DAC-89EE-601598DECEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844107F3-F12E-4DAC-89EE-601598DECEFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

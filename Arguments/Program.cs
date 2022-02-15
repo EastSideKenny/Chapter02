@@ -23,4 +23,11 @@ BackgroundColor = (ConsoleColor)Enum.Parse(
     value: args[1],
     ignoreCase: true);
 
-CursorSize = int.Parse(args[2]);
+try
+{
+    CursorSize = int.Parse(args[2]);
+}
+catch (PlatformNotSupportedException)
+{
+    WriteLine("The current platform does not support chaning the size of the cursor.");
+}
